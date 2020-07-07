@@ -7,7 +7,7 @@ import axios from "axios";
 import CountUp from "react-countup";
 import { CardColumns } from "react-bootstrap";
 import { Form } from "react-bootstrap";
-import { Bar } from "react-chartjs-2";
+
 function App() {
   const [latest, setLatest] = useState([]);
   const [results, setResults] = useState([]);
