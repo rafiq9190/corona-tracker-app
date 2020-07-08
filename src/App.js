@@ -32,7 +32,7 @@ function App() {
   const date = new Date(parseInt(latest.updated));
   const lastUpdated = date.toString();
   const filterCountries = results.filter((item) => {
-    return searchCountries != ""
+    return searchCountries !== ""
       ? item.country.includes(searchCountries)
       : item;
   });
